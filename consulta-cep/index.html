@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Consulta de CEP</title>
+</head>
+<body>
+    <h1>Consultar de CEP</h1>
+
+    <form onsubmit="event.preventDefault(); formSubmit()">
+        <fieldset>
+            <label>Informe o CEP</label>
+            <input name="cep" type="tel" id="cep" placeholder="99704094">
+        </fieldset>
+        <button>Consultar</button>
+    </form>
+
+    <!-- Informar o logradouro, o complemento, o bairro, a cidade e estado -->
+    <address id="endereco">
+
+    </address>
+</body>
+
+<script>
+    <!-- Fazer a consulta em viacep.com.br/ws/99704094/json/ -->
+    function formSubmit() {
+
+    }
+</script>
+</html>
